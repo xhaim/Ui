@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department of Agriculture</title>
+    <link rel="stylesheet" href="styles/AdminDashStyles.css">
+</head>
+<body id="ie1j">
+    <div id="igup4" class="gjs-row">
+      <div class="gjs-cell">
+        <div id="ia1uk" class="gjs-row">
+          <div id="iz2nf" class="gjs-cell">
+            <img id="ietbr" src="images/DA_Logo.png" alt="Municipality of Carmen Seal"/></div>
+          <div id="ilhzt" class="gjs-cell">
+            <div id="i4d7s">
+              <b>
+                <span id="i8usf">Carmen Department of Agriculture</span>
+              </b>
+            </div>
+            <div id="iujzm">Management System
+            </div>
+            <div id="icnmk">LGU CARMEN BOHOL
+            </div>
+          </div>
+          <div id="iackb" class="gjs-cell">
+            <div id="iswzz4" class="countdown">
+              <span data-js="countdown-endtext" class="countdown-endtext"></span>
+            </div>
+            <div id="ik4xfi" class="countdown">
+              <span data-js="countdown-endtext" class="countdown-endtext"></span>
+            </div>
+            <div id="LogOut_ID">
+              <a href="LogIn.html">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ig6iir" class="gjs-row">
+      <div id="it7f7" class="gjs-cell">
+        <div id="isi6pl">Technologist Area-Farm Tech
+        </div>
+        <div id="ipf8li" class="gjs-row">
+        </div>
+        <div id="imi8kv" class="gjs-row">
+          <div id="i31muz" class="gjs-cell">
+            <div id="Associations_Select"><a href="TechnoAssociations.html">Associations</a> 
+            </div>
+            <div id="MasterList_Select"><a href="FarmersVisitAssociation.html">Masterlist</a>
+              <br/>
+            </div>
+            <div id="FarmersVisit_Select"> <a href="FarmersVisitAssociation.html">Farmers Visit</a>
+              <br/>
+            </div>
+          </div>
+          <div id="ityt74" class="gjs-cell">
+            <div id="im6p87" class="gjs-row">
+              <div id="iekfxe" class="gjs-cell">
+                <div id="BranchLabel">FARMERS
+                </div>
+                <button type="button" id="io9sp9">Add</button>
+                <button type="button" id="io9sp9">Delete </button>
+                <select type="text" id="i5gqjd">
+                  <option value="opt1">Option 1</option>
+                  <option value="opt2">Option 2</option>
+                </select>
+                <input type="text" id="ia9kjg" placeholder="Search"/>
+                <div id="i06q4h" class="gjs-row">
+                </div>
+                <div id="ij9fdm" class="gjs-row">
+                </div>
+                <div id="iobwyf" class="gjs-row">
+                  <div class="gjs-cell">
+                    <div id="iabrt6" class="gjs-row">
+                      <div id="ilufvg" class="gjs-cell">
+                        <div id="ioq1z2">Barangay
+                        </div>
+                      </div>
+                      <div id="it1l4m" class="gjs-cell">
+                        <div id="iw631v">Number of Members
+                        </div>
+                      </div>
+                      <div id="is90fx" class="gjs-cell">
+                        <div id="iv31d6">Name of Association
+                        </div>
+                      </div>
+                      <div id="iknbpe" class="gjs-cell">
+                        <div id="i2cxhz">Chairman
+                        </div>
+                      </div>
+                      <div id="ibzh6n" class="gjs-cell">
+                        <div id="i4pf4h">Contact Number
+                        </div>
+                      </div>
+                      <div id="ib0lzq" class="gjs-cell">
+                        <div id="i80scf">Date of Registered
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form method="get" id="iu4zg">
+    </form>
+  </body>
+  <script>
+    const AssSelected = document.getElementById("Associations_Select");
+AssSelected.addEventListener("click", function() {
+
+  const paragraph = document.getElementById("BranchLabel");
+  paragraph.textContent = "ASSOCIATIONS";
+
+});
+
+const MastSelected = document.getElementById("MasterList_Select");
+MastSelected.addEventListener("click", function() {
+
+  const paragraph2 = document.getElementById("BranchLabel");
+  paragraph2.textContent = "FARMERS";
+
+});
+
+const FarmVSelected = document.getElementById("FarmersVisit_Select");
+FarmVSelected.addEventListener("click", function() {
+
+  const paragraph3 = document.getElementById("BranchLabel");
+  paragraph3.textContent = "REPORTS";
+
+});
+  </script>
+</html>
